@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three</title>
+</head>
+<body>
+  <button id="start">Start</button>
+  <button id="stop">Stop</button>
+  <h2>That's a cool car</h2>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    #start {
+      position: absolute;
+      bottom: 0;
+      width: 40px;
+    }
+    #stop {
+      position: absolute;
+      bottom: 0;
+      left: 40px;
+      width: 40px;
+    }
+    h2 {
+      position: absolute;
+      display: block;
+      top: 100px;
+      left: 300px;
+      color: gold;
+      text-shadow: 4px 4px 4px #3333;
+    }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./build/three.module.js",
+        "three/examples/jsm/controls/OrbitControls":"./jsm/controls/OrbitControls.js",
+        "three/examples/jsm/libs/stats.module":"./jsm/libs/stats.module.js",
+        "dat.gui": "./build/dat.gui.module.js",
+        "three/examples/jsm/loaders/GLTFLoader":"./jsm/loaders/GLTFLoader.js",
+        "three/examples/jsm/controls/FlyControls":"./jsm/controls/FlyControls.js"
+      }
+    }
+  </script>
+</body>
+  <script type="module" src="three.js"></script>
+
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "three-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "draco3dgltf": "^1.5.2",
+    "express": "^4.17.3",
+    "three": "^0.137.5",
+    "three-gltf-loader": "^1.111.0"
+  },
+  "devDependencies": {
+    "dat.gui": "^0.7.9"
+  }
+}
